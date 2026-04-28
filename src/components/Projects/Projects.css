@@ -1,0 +1,100 @@
+#projects {
+  padding: 4rem 2rem;
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.section-title > span {
+  color: #f5c400;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 75rem; /* tambah ini */
+  margin: 0 auto; /* tambah ini */
+  padding: 0 2rem; /* tambah ini */
+}
+
+/* project card */
+
+.project-card {
+  background: #363636;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+/* project image */
+
+.project-image {
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-1 {
+  background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+}
+.img-2 {
+  background: linear-gradient(45deg, #a1c4fd, #c2e9fb);
+}
+.img-3 {
+  background: linear-gradient(45deg, #fbc2eb, #a6c1ee);
+}
+
+/* project text */
+
+.project-content {
+  padding: 25px;
+}
+
+.project-content h3 {
+  color: #f5c400;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.project-content p {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  color: #cccccc;
+}
+
+.tech-stack {
+  font-size: 0.85rem;
+}
+
+/* links */
+
+.project-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.project-links a {
+  color: #ffffff;
+  text-decoration: underline;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.project-links a:hover {
+  color: #4facfe;
+}

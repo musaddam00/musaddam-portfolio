@@ -1,0 +1,20 @@
+<svg width="100%" viewBox="0 0 680 500" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:17px;font-weight:400;text-anchor:start;dominant-baseline:auto">Logo M dengan kurung kurawal</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:17px;font-weight:400;text-anchor:start;dominant-baseline:auto">Huruf M kuning dengan kurung kurawal oranye seperti referensi</desc>
+
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700"/>
+      <stop offset="100%" style="stop-color:#FFC200"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Kurung kurawal kiri { -->
+  <path d="&#10;    M 168 105&#10;    C 168 105, 140 105, 138 130&#10;    C 136 155, 140 175, 138 200&#10;    C 136 220, 118 235, 108 250&#10;    C 118 265, 136 280, 138 300&#10;    C 140 325, 136 345, 138 370&#10;    C 140 395, 168 395, 168 395&#10;  " fill="none" stroke="#FF8C00" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" style="fill:none;stroke:rgb(255, 140, 0);color:rgb(255, 255, 255);stroke-width:22px;stroke-linecap:round;stroke-linejoin:round;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:17px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Kurung kurawal kanan } -->
+  <path d="&#10;    M 512 105&#10;    C 512 105, 540 105, 542 130&#10;    C 544 155, 540 175, 542 200&#10;    C 544 220, 562 235, 572 250&#10;    C 562 265, 544 280, 542 300&#10;    C 540 325, 544 345, 542 370&#10;    C 540 395, 512 395, 512 395&#10;  " fill="none" stroke="#FF8C00" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" style="fill:none;stroke:rgb(255, 140, 0);color:rgb(255, 255, 255);stroke-width:22px;stroke-linecap:round;stroke-linejoin:round;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:17px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Huruf M flowing -->
+  <path d="&#10;    M 210 390&#10;    C 210 390, 205 165, 208 135&#10;    C 210 112, 224 102, 242 110&#10;    C 260 118, 272 138, 283 163&#10;    C 310 222, 325 295, 340 340&#10;    C 355 295, 370 222, 397 163&#10;    C 408 138, 420 118, 438 110&#10;    C 456 102, 470 112, 472 135&#10;    C 475 165, 470 390, 470 390&#10;    C 470 404, 461 413, 448 410&#10;    C 435 407, 428 396, 428 383&#10;    C 428 383, 430 240, 428 183&#10;    C 415 215, 382 305, 360 353&#10;    C 351 373, 339 384, 340 384&#10;    C 341 384, 329 373, 320 353&#10;    C 298 305, 265 215, 252 183&#10;    C 250 240, 252 383, 252 383&#10;    C 252 396, 245 407, 232 410&#10;    C 219 413, 210 404, 210 390&#10;    Z&#10;  " fill="url(#gold)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:17px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+</svg>

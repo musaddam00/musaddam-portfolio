@@ -1,0 +1,14 @@
+<svg width="100%" viewBox="0 0 680 680" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:17px;font-weight:400;text-anchor:start;dominant-baseline:auto">Logo M - Musaddam</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:17px;font-weight:400;text-anchor:start;dominant-baseline:auto">Logo huruf M elegan warna kuning tanpa background</desc>
+
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700"/>
+      <stop offset="100%" style="stop-color:#FFA500"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Huruf M dengan path organik/flowing, tidak kaku -->
+  <path d="&#10;    M 160 500&#10;    C 160 500, 155 200, 158 165&#10;    C 160 140, 175 130, 195 138&#10;    C 215 146, 228 168, 240 195&#10;    C 270 260, 310 355, 340 410&#10;    C 370 355, 410 260, 440 195&#10;    C 452 168, 465 146, 485 138&#10;    C 505 130, 520 140, 522 165&#10;    C 525 200, 520 500, 520 500&#10;    C 520 515, 510 525, 496 522&#10;    C 482 519, 474 507, 474 493&#10;    C 474 493, 476 340, 474 280&#10;    C 460 315, 420 415, 395 470&#10;    C 385 492, 372 505, 340 505&#10;    C 308 505, 295 492, 285 470&#10;    C 260 415, 220 315, 206 280&#10;    C 204 340, 206 493, 206 493&#10;    C 206 507, 198 519, 184 522&#10;    C 170 525, 160 515, 160 500&#10;    Z&#10;  " fill="url(#gold)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:17px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+</svg>

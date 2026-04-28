@@ -1,0 +1,107 @@
+#intro {
+  height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5rem; /* tambah padding kiri kanan */
+}
+
+.introContent {
+  flex: 1;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bg {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+  border: 4px solid transparent;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-image: linear-gradient(#1a1a1a, #1a1a1a), linear-gradient(135deg, #f0a500, #ffd700);
+  padding: 4px;
+  margin-right: 0; /* hapus margin-right */
+}
+@media screen and (max-width: 768px) {
+  #intro {
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .introContent {
+    align-items: center;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  .bg {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+.hello {
+  font-size: 1.75rem;
+  font-weight: 100;
+}
+
+.introName {
+  color: #f5c400;
+}
+
+.introPara {
+  font-size: medium;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  padding: 0.75rem 1.8rem;
+  background: white; /* ganti dari transparent */
+  color: #1a1a1a; /* ganti dari white */
+  border: 2px solid white;
+  border-radius: 2rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.btn:hover {
+  background: #f5c400;
+  color: #1a1a1a;
+  border-color: #f5c400;
+  transform: translateY(-2px);
+}
+
+.btnImg {
+  object-fit: cover;
+  height: 1rem;
+  width: 1rem;
+  filter: invert(0); /* ganti dari invert(1) */
+  transition: filter 0.2s ease;
+}
+
+.btn:hover .btnImg {
+  filter: invert(0);
+}

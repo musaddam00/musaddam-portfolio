@@ -1,0 +1,119 @@
+.navbar {
+  height: 5rem;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  max-width: 75rem;
+  background: rgb(30, 30, 30);
+}
+
+.logo {
+  object-fit: cover;
+  height: 3rem;
+  width: 4rem;
+  cursor: pointer;
+}
+
+.desktopMenuListItem {
+  margin: 1rem;
+  cursor: pointer;
+  color: white;
+  position: relative;
+  transition: color 0.2s ease;
+  user-select: none;
+}
+
+.desktopMenuListItem::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #f5c400;
+  transition: width 0.2s ease;
+}
+
+.desktopMenuListItem:hover {
+  color: #f5c400;
+}
+
+.desktopMenuListItem:hover::after {
+  width: 100%;
+}
+
+.activeLink {
+  color: #f5c400 !important;
+}
+
+.activeLink::after {
+  width: 100% !important;
+}
+
+.desktopMenuBtn {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 1.4rem;
+  border-radius: 2rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  gap: 0.5rem;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.desktopMenuBtn:hover {
+  background: #f5c400;
+  color: #1a1a1a;
+  border-color: #f5c400;
+  transform: translateY(-2px);
+}
+
+.desktopMenuImg {
+  object-fit: cover;
+  height: 1rem;
+  width: 1rem;
+  margin: 0;
+  filter: invert(1);
+  transition: filter 0.2s ease;
+}
+
+.desktopMenuBtn:hover .desktopMenuImg {
+  filter: invert(0);
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 1rem;
+  }
+
+  .desktopMenu {
+    display: none;
+  }
+
+  .desktopMenuBtnLink {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .mobileMenu {
+    display: flex;
+  }
+}
