@@ -1,4 +1,4 @@
-<img width="1189" height="830" alt="image" src="https://github.com/user-attachments/assets/6ab6a329-3cee-4fe8-a8da-753f23f5a0c9" />🌐 Musaddam — Personal Portfolio Website
+🌐 Musaddam — Personal Portfolio Website
 A personal portfolio website built with React + Vite to showcase my skills, projects, and contact information as an aspiring Full-Stack Web Developer.
 
 📸 Preview
