@@ -1,4 +1,4 @@
-🌐 Musaddam — Personal Portfolio Website
+# 🌐 Musaddam — Personal Portfolio Website
 A personal portfolio website built with React + Vite to showcase my skills, projects, and contact information as an aspiring Full-Stack Web Developer.
 
 📸 Preview
@@ -10,15 +10,15 @@ A personal portfolio website built with React + Vite to showcase my skills, proj
 <img width="1220" height="700" alt="image" src="https://github.com/user-attachments/assets/82518020-fe7c-448e-9392-4e3c31ae1dc2" />
 <img width="1376" height="85" alt="image" src="https://github.com/user-attachments/assets/729be5fa-da83-40a8-bb63-fa1eaba562a3" />
 
-✨ Features
-Hero Section — Introduction with profile photo and tagline
-About — Bio, location, email, and resume download
-Tech Stack — 20+ skills displayed as icon grid
-Projects — Project cards with live preview & GitHub links
-Contact Form — Functional form powered by EmailJS
-Social Links — Instagram, LinkedIn, GitHub, WhatsApp
-Smooth Scroll — Navigation with animated scrolling between sections
-Responsive Design — Works on desktop and mobile
+## ✨ Features
+- Hero Section — Introduction with profile photo and tagline  
+- About — Bio, location, email, and resume download  
+- Tech Stack — 20+ skills displayed as icon grid  
+- Projects — Project cards with live preview & GitHub links  
+- Contact Form — Functional form powered by EmailJS  
+- Social Links — Instagram, LinkedIn, GitHub, WhatsApp  
+- Smooth Scroll — Navigation with animated scrolling between sections  
+- Responsive Design — Works on desktop and mobile  
 
 🛠️ Tech Stack
 | Category       |  Technology                    |
@@ -29,30 +29,35 @@ Responsive Design — Works on desktop and mobile
 | Navigation     | react-scroll                   |
 | Version Control| Git & GitHub                   |
 
-🚀 Getting Started
+## 🚀 Getting Started
+
 Follow these steps to run the project locally:
-Prerequisites
 
-Node.js (v18 or higher)
-npm
+### Prerequisites
 
-Installation
-bash# 1. Clone the repository
-git clone https://github.com/musaddam00/musaddam-portfolio.git
+*   Node.js (v18 or higher)
+*   npm
+
+### Installation
+```bash
+# 1. Clone the repository
+git clone [https://github.com/username/repository-name.git](https://github.com/username/repository-name.git)
 
 # 2. Navigate to project folder
-cd musaddam-portfolio
+cd repository-name
 
 # 3. Install dependencies
 npm install
 
 # 4. Start development server
 npm run dev
+```
 Then open http://localhost:5173 in your browser.
-Build for Production
-bashnpm run build
-
-📁 Project Structure
+```
+npm run build
+```
+## 📁 Project Structure
+```
 src/
 ├── App.jsx                  # Root component
 ├── main.jsx                 # Entry point
@@ -65,8 +70,9 @@ src/
 │   ├── Contact/             # Contact form + social links
 │   └── Footer/              # Footer
 └── assets/                  # Images and icons
+```
 
-📄 License
+## 📄 License
 This project is open source and available under the MIT License.
 
 <p align="center">Design & Built with ❤️ by <strong>Musaddam</strong></p>
